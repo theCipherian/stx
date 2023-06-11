@@ -82,3 +82,16 @@
 .text_1 {
   font-size: 48px;
 }
+.sd1{
+  position:relative;
+}
+.svg_1{
+  position:absolute;
+  right:-20%;
+  top:0%;
+  width:140px;
+  height:auto;
+}
+.svg_2{
+  
+}

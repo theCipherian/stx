@@ -1,32 +1,83 @@
 @font-face {
-    font-family: 'Abordage';
-    src: url('../assets/fonts/Abordage-Regular.woff2') format('woff2'),
-         url('../assets/fonts/Abordage-Regular.woff') format('woff');
-  }
-
-  :root {
-    --light: #ffffff;
-    --dark: #121212;
-    --nude: #F9F9EB;
-    --beige: #f5f5dc;
+  font-family: "Abordage";
+  src: url("../assets/fonts/Abordage-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Abordage-Regular.woff") format("woff");
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-   
+:root {
+  --light: #ffffff;
+  --dark: #121212;
+  --nude: #f9f9eb;
+  --beige: #f5f5dc;
 }
-html{
-    width:100%;
-    overflow-x:hidden;
-    transition: all .5s ease;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-  font-family: 'Satoshi', sans-serif;
+html {
+  width: 100%;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
 }
-.container_1{
-    padding-top:2.5rem;
-    padding-left:5rem;
-    padding-right:5rem;
+body {
+  font-family: "Satoshi", sans-serif;
+}
+.container_1 {
+  padding-top: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/*form collection*/
+.form_collection {
+  padding: 10px;
+}
+.form_collection div {
+  margin-bottom: 10px;
+}
+.f_type_1 {
+  width: 460px;
+  padding: 1.2rem;
+  font-family: "Satoshi", sans-serif;
+  background: #ffffff;
+  font-weight:bold;
+  font-size:16px;
+  border: 2px solid #000000;
+  border-radius: 50px;
+}
+.f_type_1::-webkit-input-placeholder {
+  /* Edge */
+  font-size:16px;
+  color: black;
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+}
+
+.f_type_1:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+}
+
+.f_type_1::placeholder {
+  color: black;
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+}
+
+/*Buttons*/
+.button_1 {
+  box-sizing: border-box;
+  width: 460px;
+  height: 60px;
+  background: #dbff00;
+  border: 3px solid #121212;
+  border-radius: 50px;
+  outline:none;
+  font-family: 'Chillax', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  cursor:pointer;
 }

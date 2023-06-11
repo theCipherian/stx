@@ -9,6 +9,8 @@
   --dark: #121212;
   --nude: #f9f9eb;
   --beige: #f5f5dc;
+  --primary: #F72585;
+  --button: #dbff00;
 }
 * {
   margin: 0;
@@ -42,29 +44,29 @@ body {
   width: 100%;
   padding: 1.2rem;
   font-family: "Satoshi", sans-serif;
-  background: #ffffff;
+  background: var(--light);
   font-weight: bold;
   font-size: 16px;
-  border: 2px solid #000000;
+  border: 2px solid var(--dark);
   border-radius: 50px;
 }
 .f_type_1::-webkit-input-placeholder {
   /* Edge */
   font-size: 16px;
-  color: black;
+  color: var(--dark);
   font-family: "Satoshi", sans-serif;
   font-weight: bold;
 }
 
 .f_type_1:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: black;
+  color: var(--dark);
   font-family: "Satoshi", sans-serif;
   font-weight: bold;
 }
 
 .f_type_1::placeholder {
-  color: black;
+  color: var(--dark);
   font-family: "Satoshi", sans-serif;
   font-weight: bold;
 }
@@ -73,13 +75,40 @@ body {
 .button_1 {
   box-sizing: border-box;
   width: 100%;
+  position:relative;
   height: 60px;
-  background: #dbff00;
-  border: 3px solid #121212;
+  background: var(--dark);
+  border: 3px solid var(--dark);
   border-radius: 50px;
   outline: none;
   font-family: "Chillax", sans-serif;
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+}
+.button_over{
+  position:absolute;
+  top:0;
+  box-sizing: border-box;
+  display:flex;
+  width: 100%;
+  font-size: 18px;
+  height: 100%;
+  border-radius: 50px;
+  outline: none;
+  font-family: "Chillax", sans-serif;
+  align-items: center;
+  background: var(--button);
+  justify-content: center;
+  bottom:0;
+  left:0;
+  transition:all.3s ease;
+  right:0;
+}
+
+.button_over:hover{
+    top:-10px;
+    transition:all .3s ease;
+    border: 3px solid var(--dark);
+    left:-5px;
 }

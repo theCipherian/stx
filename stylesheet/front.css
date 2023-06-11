@@ -109,3 +109,36 @@
   font-weight: bold;
   width: 100%;
 }
+.text_liner_2{
+  font-size:50px;
+  text-align: center;
+}
+.text_liner_2 span {
+  position: relative;
+  text-decoration: none; /* Remove default underline */
+}
+
+.text_liner_2 span::before,
+.text_liner_2 span::after {
+  content: "";
+  position: absolute;
+  left: -5%;
+  bottom: -4px; 
+  width: 110%;
+  height: 3px;
+  background-color: black; 
+  transition: height 0.3s; 
+}
+
+.text_liner_2 span::before {
+  width:45%;
+  bottom: -12px; 
+}
+
+.text_liner_2 span:hover::before,
+.text_liner_2 span:hover::after {
+  height: 2px; 
+}
+.c_p{
+  color:var(--primary);
+}

@@ -1,0 +1,44 @@
+/*  Background SVG noise  */
+.svg_bg {
+    background-color:var(--beige);
+    width:100vw;
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    z-index: -1;
+    height:100vh;
+  }
+.rect_bg {
+    fill: beige;
+  }
+  /* Index styles */
+.top_set{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  color:var(--light);
+  background-color: var(--dark);
+  height:66px;
+}
+.ht {
+  position: relative;
+  font-weight: bold;
+  margin-left:1rem;
+}
+
+.ht::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust this value to control the space */
+  width: 100%;
+  height: 0px;
+  background-color: black; /* Change the color as needed */
+}
+
+.ht:hover::after {
+  height: 2px; /* Adjust this value to control the underline thickness */
+}

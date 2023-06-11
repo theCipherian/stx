@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'arbo';
+    src: url('../assets/fonts/Abordage-Regular.woff2') format('woff2'),
+         url('../assets/fonts/Abordage-Regular.woff') format('woff');
+  }
+
+  :root {
+    --light: #ffffff;
+    --dark: #121212;
+    --nude: #F9F9EB;
+    --beige: #f5f5dc;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    width:100%;
+    overflow-x:hidden;
+}
+body{
+  font-family: 'Satoshi', sans-serif;
+}
+
+.container_1{
+    padding-top:2.5rem;
+    padding-left:5rem;
+    padding-right:5rem;
+}

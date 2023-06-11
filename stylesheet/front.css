@@ -52,3 +52,33 @@
 .ht:hover::after {
   height: 3px;
 }
+.underline {
+  position: relative;
+  font-weight: bold;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  transition: height 0.3s;
+}
+.abordage {
+  font-family: "Abordage", Arial, sans-serif;
+}
+.split_2 {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.split_2 div {
+  width: 40%;
+}
+.text_1 {
+  font-size: 48px;
+}

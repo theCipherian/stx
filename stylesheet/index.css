@@ -31,24 +31,26 @@ body {
 
 /*form collection*/
 .form_collection {
+  min-width: 100%;
   padding: 10px;
 }
 .form_collection div {
   margin-bottom: 10px;
+  min-width: 100%;
 }
 .f_type_1 {
-  width: 460px;
+  width: 100%;
   padding: 1.2rem;
   font-family: "Satoshi", sans-serif;
   background: #ffffff;
-  font-weight:bold;
-  font-size:16px;
+  font-weight: bold;
+  font-size: 16px;
   border: 2px solid #000000;
   border-radius: 50px;
 }
 .f_type_1::-webkit-input-placeholder {
   /* Edge */
-  font-size:16px;
+  font-size: 16px;
   color: black;
   font-family: "Satoshi", sans-serif;
   font-weight: bold;
@@ -70,14 +72,14 @@ body {
 /*Buttons*/
 .button_1 {
   box-sizing: border-box;
-  width: 460px;
+  width: 100%;
   height: 60px;
   background: #dbff00;
   border: 3px solid #121212;
   border-radius: 50px;
-  outline:none;
-  font-family: 'Chillax', sans-serif;
+  outline: none;
+  font-family: "Chillax", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  cursor:pointer;
+  cursor: pointer;
 }

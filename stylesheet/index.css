@@ -15,15 +15,16 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+   
 }
 html{
     width:100%;
     overflow-x:hidden;
+    transition: all .5s ease;
 }
 body{
   font-family: 'Satoshi', sans-serif;
 }
-
 .container_1{
     padding-top:2.5rem;
     padding-left:5rem;

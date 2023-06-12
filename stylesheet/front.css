@@ -188,11 +188,11 @@
 
 .text_liner_4 span::before {
   width: 70%;
-  left:35%;
+  left: 35%;
   bottom: -16px;
 }
-.helix_7{
-  width:35px;
+.helix_7 {
+  width: 35px;
 }
 .c_p {
   color: var(--primary);
@@ -249,7 +249,7 @@
 .hx_343 {
   position: relative;
   padding-left: 15%;
-  margin-top:5rem;
+  margin-top: 5rem;
   padding-right: 15%;
 }
 .hx_343 ul li {
@@ -259,37 +259,39 @@
   font-size: 44px;
   cursor: pointer;
   line-height: 90px;
-  transition:all .3s ease;
+  transition: all 0.3s ease;
 }
-.hx_343 ul li:hover{
- color:var(--button);
- transition:all .3s ease;
- text-shadow: 4px 3px 0px black, 
- 9px 8px 0px black;
- display: block;
+.hx_343 ul li:hover {
+  color: var(--button);
+  transition: all 0.3s ease;
+  text-shadow: 4px 3px 0px black, 9px 8px 0px black;
+  display: block;
 }
-.hx_343 .hx_img{
-  top:-20%;
-  width:100px;
-  left:10%;
-  position:absolute;
+.hx_343 .hx_img {
+  top: -20%;
+  width: 100px;
+  left: 10%;
+  position: absolute;
 }
-.hx_img_2{
-  position:absolute;
-  right:20%;
-  bottom:40%;
-  width:280px;
+.hx_img_2 {
+  position: absolute;
+  right: 20%;
+  bottom: 40%;
+  width: 280px;
 }
-.cw_450{
-  width:450px;
+.cw_450 {
+  width: 450px;
 }
-/* .vintage {
-  background: lighten(brown, 5%);
-  color: skyblue;
-  font-family: 'Lobster';
-  text-shadow: 4px 3px 0px #fff, 
-               9px 8px 0px rgba(0,0,0,0.15);
-  span {
-    
-  }
-} */
+.ip_857{
+  display:flex;
+  justify-content: center;
+  width:95%;
+  align-items: center;
+}
+.ip_858{
+  display:flex;
+}
+.helix_8{
+  margin-right:20px;
+  width:112;
+}

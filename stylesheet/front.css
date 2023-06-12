@@ -261,12 +261,10 @@
   line-height: 90px;
   transition: all 0.3s ease;
 }
-.hx_343 ul li:hover {
-  color: var(--button);
-  transition: all 0.3s ease;
-  text-shadow: 4px 3px 0px black, 9px 8px 0px black;
-  display: block;
+.hx_343 ul li span{
+  margin-left:0px !important;
 }
+
 .hx_343 .hx_img {
   top: -20%;
   width: 100px;
@@ -282,29 +280,60 @@
 .cw_450 {
   width: 450px;
 }
-.ip_857{
-  display:flex;
+.ip_857 {
+  display: flex;
   justify-content: center;
-  width:95%;
+  width: 95%;
   align-items: center;
 }
-.ip_858{
-  display:flex;
+.ip_858 {
+  display: flex;
 }
-.helix_8{
-  margin-right:20px;
-  width:112;
+.helix_8 {
+  margin-right: 20px;
+  width: 112;
 }
-.helix_9{
-  float:right;
-  margin-right:5rem;
+.helix_9 {
+  float: right;
+  margin-right: 5rem;
 }
-.scroll_id{
-  position:absolute;
-  right:0;
-  left:0;
-  bottom:5%;
-  display:flex;
+.scroll_id {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 5%;
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+.pl_234 {
+  margin-top: 5rem;
+  padding: 5rem;
+  border-radius: 30px;
+  border: 3px solid var(--dark);
+}
+.pl_233 {
+  font-family: "Chillax";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  line-height: 56px;
+}
+.g_23 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 50px;
+  column-gap: 30px;
+}
+.g_21 {
+  border: 3px solid #000000;
+  border-radius: 30px;
+  padding: 3rem;
+  font-family: "Chillax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
 }

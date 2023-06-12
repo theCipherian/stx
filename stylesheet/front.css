@@ -169,6 +169,11 @@
   position: relative;
   text-align: center;
 }
+.text_liner_5 {
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+}
 .text_liner_4 span {
   position: relative;
   text-decoration: none;
@@ -360,6 +365,15 @@
 .lo_434{
   margin-top:5rem;
   height:450px;
+  display:flex;
+  position:relative;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   background-color: var(--dark);
+}
+.lp_43{
+  position: absolute;
+  left:10%;
+  bottom:2%;
 }

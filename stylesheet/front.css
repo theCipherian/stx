@@ -164,6 +164,36 @@
   bottom: -16px;
 }
 
+.text_liner_4 {
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+}
+.text_liner_4 span {
+  position: relative;
+  text-decoration: none;
+}
+
+.text_liner_4 span::before,
+.text_liner_4 span::after {
+  content: "";
+  position: absolute;
+  left: -5%;
+  bottom: -8px;
+  width: 110%;
+  height: 3px;
+  background-color: black;
+  transition: height 0.3s;
+}
+
+.text_liner_4 span::before {
+  width: 70%;
+  left:35%;
+  bottom: -16px;
+}
+.helix_7{
+  width:35px;
+}
 .c_p {
   color: var(--primary);
 }
@@ -234,6 +264,9 @@
 .hx_343 ul li:hover{
  color:var(--button);
  transition:all .3s ease;
+ text-shadow: 4px 3px 0px black, 
+ 9px 8px 0px black;
+ display: block;
 }
 .hx_343 .hx_img{
   top:-20%;
@@ -250,3 +283,13 @@
 .cw_450{
   width:450px;
 }
+/* .vintage {
+  background: lighten(brown, 5%);
+  color: skyblue;
+  font-family: 'Lobster';
+  text-shadow: 4px 3px 0px #fff, 
+               9px 8px 0px rgba(0,0,0,0.15);
+  span {
+    
+  }
+} */

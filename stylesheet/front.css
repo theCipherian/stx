@@ -336,4 +336,24 @@
   font-size: 18px;
   line-height: 28px;
   text-align: center;
+  transition:all .3s ease-in-out;
+}
+.g_21:hover{
+  background-color: var(--button);
+  transition:all .3s ease-in-out;
+}
+
+.g_54{
+  display:flex;
+  margin-top:5rem;
+  align-items: center;
+  justify-content: center;
+}
+.h_9{
+  display:flex;
+  align-items: flex-start;
+}
+.pl_335{
+  margin-top:1rem;
+  margin:20px;
 }

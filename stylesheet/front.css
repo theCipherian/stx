@@ -109,8 +109,8 @@
   font-weight: bold;
   width: 100%;
 }
-.text_liner_2{
-  font-size:50px;
+.text_liner_2 {
+  font-size: 50px;
   text-align: center;
 }
 .text_liner_2 span {
@@ -123,22 +123,49 @@
   content: "";
   position: absolute;
   left: -5%;
-  bottom: -4px; 
+  bottom: -4px;
   width: 110%;
   height: 3px;
-  background-color: black; 
-  transition: height 0.3s; 
+  background-color: black;
+  transition: height 0.3s;
 }
 
 .text_liner_2 span::before {
-  width:50%;
-  bottom: -12px; 
+  width: 50%;
+  bottom: -12px;
 }
 
 .text_liner_2 span:hover::before,
 .text_liner_2 span:hover::after {
-  height: 2px; 
+  height: 2px;
 }
-.c_p{
-  color:var(--primary);
+.c_p {
+  color: var(--primary);
+}
+.card-container {
+  margin-top: 5.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  row-gap: 10px;
+}
+
+.card {
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem;
+  background: #f9f9eb;
+  box-shadow: -5px 0px 60px rgba(0, 0, 0, 0.05);
+}
+.card_header {
+  font-size: 32px;
+}
+.card p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #000000;
 }

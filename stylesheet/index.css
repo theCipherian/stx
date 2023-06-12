@@ -85,6 +85,9 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.cw_200{
+    max-width:200px !important;
+}
 .button_over{
   position:absolute;
   top:0;

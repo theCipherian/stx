@@ -52,6 +52,23 @@
 .ht:hover::after {
   height: 3px;
 }
+.htt {
+  position: relative;
+  cursor: pointer;
+}
+.htt::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 0px;
+  background-color: black;
+  transition: height 0.3s;
+}
+.htt:hover::after {
+  height: 3px;
+}
 .underline {
   position: relative;
   font-weight: bold;
@@ -325,6 +342,7 @@
   font-size: 40px;
   line-height: 56px;
 }
+
 .g_23 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -376,4 +394,42 @@
   position: absolute;
   left: 10%;
   bottom: 2%;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+  flex-direction: column;
+}
+.flexed_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.lp_432 {
+  font-size: 20px;
+}
+.cw_300 {
+  width: 400px;
+}
+.footer {
+  width: 100%;
+  background-color: #fff;
+  min-height: 250px;
+}
+.sets {
+  display: flex;
+  justify-content: space-between;
+}
+.sets h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.set_2 {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.set_2 div {
+  line-height: 30px;
 }

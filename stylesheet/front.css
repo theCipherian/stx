@@ -266,8 +266,8 @@
   line-height: 90px;
   transition: all 0.3s ease;
 }
-.hx_343 ul li span{
-  margin-left:0px !important;
+.hx_343 ul li span {
+  margin-left: 0px !important;
 }
 
 .hx_343 .hx_img {
@@ -341,39 +341,39 @@
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-  transition:all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.g_21:hover{
+.g_21:hover {
   background-color: var(--button);
-  transition:all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.g_54{
-  display:flex;
-  margin-top:5rem;
+.g_54 {
+  display: flex;
+  margin-top: 5rem;
   align-items: center;
   justify-content: center;
 }
-.h_9{
-  display:flex;
+.h_9 {
+  display: flex;
   align-items: flex-start;
 }
-.pl_335{
-  margin-top:1rem;
-  margin:20px;
+.pl_335 {
+  margin-top: 1rem;
+  margin: 20px;
 }
-.lo_434{
-  margin-top:5rem;
-  height:450px;
-  display:flex;
-  position:relative;
+.lo_434 {
+  margin-top: 5rem;
+  height: 450px;
+  display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   width: 100%;
   background-color: var(--dark);
 }
-.lp_43{
+.lp_43 {
   position: absolute;
-  left:10%;
-  bottom:2%;
+  left: 10%;
+  bottom: 2%;
 }

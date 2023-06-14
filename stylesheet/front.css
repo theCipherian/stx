@@ -300,7 +300,8 @@
   width: 280px;
 }
 .cw_450 {
-  width: 450px;
+  max-width: 450px;
+  min-width: 450px;
 }
 .ip_857 {
   display: flex;
@@ -410,8 +411,8 @@
 .lp_432 {
   font-size: 20px;
 }
-.cw_300 {
-  width: 400px;
+.cw_400 {
+  max-width: 400px;
 }
 .footer {
   width: 100%;

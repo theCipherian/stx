@@ -457,3 +457,34 @@
 .sp p:nth-child(3){
   margin-left:10px;
 }
+
+.split_3 {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.split_3 div {
+  width: 40%;
+}
+.split_3 div:nth-child(1){
+  width:45%;
+}
+.c1_text{
+  font-size: 60px;
+  font-weight: 400;
+}
+.step_1{
+  position:absolute;
+  right:0;
+  top:0;
+  margin:2rem;
+  border-radius:50%;
+  width:60px;
+  height:60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark);
+  color:#fff;
+  font-size: 30px;
+}

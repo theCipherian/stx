@@ -488,3 +488,25 @@
   color:#fff;
   font-size: 30px;
 }
+.s_head{
+  padding-top:5rem;
+  padding:3rem;
+  min-height:350px;
+  background-color:var(--dark);
+}
+.s_head_1{
+  display: flex;
+  justify-content: space-between;
+}
+.sh1 h1{
+  color:#fff;
+  font-size:44px;
+  font-weight:400;
+}
+.sh2{
+  font-weight:600;
+  color:#fff;
+}
+.sh2 div:nth-child(2){
+  color:var(--button);
+}

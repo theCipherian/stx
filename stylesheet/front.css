@@ -323,7 +323,7 @@
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 5%;
+  bottom: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -432,4 +432,27 @@
 }
 .set_2 div {
   line-height: 30px;
+}
+.dot{
+  width:5px;
+  height:5px;
+  border-radius: 50%;
+  background-color: var(--dark);
+}
+.sp{
+  margin-top:10px;
+  margin-bottom:1rem;
+  display:flex;
+  align-items: center;
+  font-weight: bold;
+  min-width:100%;
+  word-wrap: none;
+  color:#384100;
+}
+
+.sp p:nth-child(2){
+  margin-left:10px;
+}
+.sp p:nth-child(3){
+  margin-left:10px;
 }

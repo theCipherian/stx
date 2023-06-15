@@ -577,8 +577,8 @@
 .space_3 {
   width: 40%;
 }
-.space_1{
-  display:flex;
+.space_1 {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -598,13 +598,31 @@
   background: var(--dark);
   border-radius: 10px;
   font-family: "Chillax";
-  cursor:pointer;
+  cursor: pointer;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
   color: var(--light);
 }
-.mb_1{
-  margin-bottom:1rem;
+.mb_1 {
+  margin-bottom: 1rem;
+}
+.head_1 h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 45px;
+  color: var(--dark);
+}
+.head_1 h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  color: #808080;
+}
+.hll img {
+  width: 150px;
+  height: auto;
 }

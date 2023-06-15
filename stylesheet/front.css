@@ -529,3 +529,10 @@
   font-weight: 700;
   font-size: 40px;
 }
+.s_b_list{
+  font-weight: 600;
+  font-size: 18px;
+}
+.s_b_list div{
+  line-height: 35px;
+}

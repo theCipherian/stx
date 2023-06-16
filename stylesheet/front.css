@@ -795,7 +795,9 @@
 }
 .tl_item{
   margin-bottom:2rem;
+  padding-bottom:20px;
   position: relative;
+  border-bottom:1px solid var(--button);
 }
 .tl_item h2 {
   font-style: normal;
@@ -824,4 +826,10 @@
   line-height: 21px;
   color: #93AB02;
   
+}
+.tl_item:hover{
+  /* opacity:50%; */
+  cursor: pointer;
+  transition: .2s ease;
+  border-bottom:1px solid var(--button);
 }

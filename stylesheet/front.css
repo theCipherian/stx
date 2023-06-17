@@ -952,6 +952,7 @@
 }
 .all_cont {
   height: 70%;
+  width:100%;
 }
 .list_1 {
   height: 100%;
@@ -1006,4 +1007,12 @@
 }
 .icons_set i {
   cursor: pointer;
+}
+.fp{
+  height:70%;
+  display:flex;
+}
+.all_cont_2{
+  height: 100%;
+  width:90%;
 }

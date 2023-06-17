@@ -870,7 +870,7 @@
   height: 100%;
 }
 .data_item {
-  margin-bottom:10px;
+  margin-bottom:5px;
   box-sizing: border-box;
   width: 100%;
   min-height: 103px;
@@ -878,13 +878,20 @@
   display: flex;
   padding:1rem;
   border-radius: 20px;
+  cursor: pointer;
 }
 .data_item .index{
   background-color: var(--button);
   border:1px solid var(--dark);
 }
+.index .hex p{
+  color:var(--dark) !important;
+}
 .data_item:hover{
   background-color:var(--button);
+}
+.data_item:hover .hex p{
+  color:var(--dark);
 }
 .data_item i {
  font-size:1.8rem;
@@ -904,7 +911,7 @@
   font-weight: 600;
   font-size: 14px;
   width:90%;
-  color: var(--dark);
+  color: #808080;
 }
 .note_2 {
   position: absolute;

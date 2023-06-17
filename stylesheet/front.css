@@ -858,3 +858,10 @@
   line-height: 28px;
   color: #808080;
 }
+.sh_2{
+  justify-content: flex-end;
+  display:flex;
+}
+.sh_2 .icons_set{
+  margin-right:10%;
+}

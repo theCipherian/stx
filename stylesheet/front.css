@@ -998,5 +998,12 @@
   height:100%;
 }
 .exploring_the_cosmos{
-  
+  position:absolute;
+  bottom:0;
+  margin:auto;
+  font-weight:600;
+  font-size:18px;
+}
+.icons_set i{
+  cursor:pointer;
 }

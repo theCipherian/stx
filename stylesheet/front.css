@@ -983,3 +983,20 @@
 .over_item{
   transition: all .5s ease;
 }
+
+.data_cont{
+  width: 100%;
+  height: 70%;
+  margin-top:1rem;
+}
+.helix_holder{
+  display:flex;
+  align-items: center;
+  position:relative;
+  justify-content: center;
+  width:100%;
+  height:100%;
+}
+.exploring_the_cosmos{
+  
+}
